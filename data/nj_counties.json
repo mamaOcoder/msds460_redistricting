@@ -1,23 +1,128 @@
 {
-    "Atlantic County": ["Burlington County", "Camden County", "Cape May County", "Cumberland County", "Gloucester County", "Ocean County"],
-    "Bergen County": ["Essex County", "Hudson County", "Passaic County"],
-    "Burlington County": ["Atlantic County", "Camden County", "Mercer County", "Monmouth County", "Ocean County"],
-    "Camden County": ["Atlantic County", "Burlington County", "Gloucester County"],
-    "Cape May County": ["Atlantic County", "Cumberland County", "Gloucester County", "Salem County"],
-    "Cumberland County": ["Atlantic County", "Cape May County", "Gloucester County", "Salem County"],
-    "Essex County": ["Bergen County", "Hudson County", "Morris County", "Passaic County", "Union County"],
-    "Gloucester County": ["New Castle County, DE", "Atlantic County", "Camden County", "Cumberland County", "Salem County"],
-    "Hudson County": ["Bergen County", "Essex County", "Union County"],
-    "Hunterdon County": ["Mercer County", "Morris County", "Somerset County", "Warren County"],
-    "Mercer County": ["Burlington County", "Hunterdon County", "Middlesex County", "Monmouth County", "Somerset County"],
-    "Middlesex County": ["Mercer County", "Monmouth County", "Somerset County", "Union County"],
-    "Monmouth County": ["Burlington County", "Mercer County", "Middlesex County", "Ocean County"],
-    "Morris County": ["Essex County", "Hunterdon County", "Passaic County", "Somerset County", "Sussex County", "Union County", "Warren County"],
-    "Ocean County": ["Atlantic County", "Burlington County", "Monmouth County"],
-    "Passaic County": ["Bergen County", "Essex County", "Morris County", "Sussex County"],
-    "Salem County": ["Cumberland County", "Gloucester County"],
-    "Somerset County": ["Hunterdon County", "Mercer County", "Middlesex County", "Morris County", "Union County"],
-    "Sussex County": ["Morris County", "Passaic County", "Warren County"],
-    "Union County": ["Essex County", "Hudson County", "Middlesex County", "Morris County", "Somerset County", "Richmond County, NY"],
-    "Warren County": ["Hunterdon County", "Morris County", "Sussex County"]
+    "Atlantic County": 
+    {
+        "population": 276654,
+        "adjacent": ["Burlington County", "Camden County", "Cape May County", "Cumberland County", "Gloucester County", "Ocean County"],
+        "geo_coords": [39.4688295112, -74.6337304316]
+    },
+    "Bergen County": 
+    {
+        "population": 949233,
+        "adjacent": ["Essex County", "Hudson County", "Passaic County"],
+        "geo_coords": [40.9596717781, -74.0742255725]
+    },
+    "Burlington County": 
+    {    
+        "population": 469487,
+        "adjacent": ["Atlantic County", "Camden County", "Mercer County", "Monmouth County", "Ocean County"],
+        "geo_coords": [39.8777172962, -74.6680674072]
+    },
+    "Camden County": 
+    {
+        "population": 526473,
+        "adjacent": ["Atlantic County", "Burlington County", "Gloucester County"],
+        "geo_coords": [39.8035392391, -74.9597543553]
+    },
+    "Cape May County": 
+    {
+        "population": 95366,
+        "adjacent": ["Atlantic County", "Cumberland County", "Gloucester County", "Salem County"],
+        "geo_coords": [39.0850981086, -74.8499770137]
+    },
+    "Cumberland County": 
+    {
+        "population": 149890,
+        "adjacent": ["Atlantic County", "Cape May County", "Gloucester County", "Salem County"],
+        "geo_coords": [39.3280985807, -75.1293182687]
+    },
+    "Essex County": 
+    {
+        "population": 840189,
+        "adjacent": ["Bergen County", "Hudson County", "Morris County", "Passaic County", "Union County"],
+        "geo_coords": [40.7872147845, -74.2470601526]
+    },
+    "Gloucester County": 
+    {
+        "population": 310563,
+        "adjacent": ["New Castle County, DE", "Atlantic County", "Camden County", "Cumberland County", "Salem County"],
+        "geo_coords": [39.7172646082, -75.1414130536]
+    },
+    "Hudson County": 
+    {
+        "population": 703204,
+        "adjacent": ["Bergen County", "Essex County", "Union County"],
+        "geo_coords": [40.7309049975, -74.0759554422]
+    },
+    "Hunterdon County": 
+    {
+        "population": 129995,
+        "adjacent": ["Mercer County", "Morris County", "Somerset County", "Warren County"],
+        "geo_coords": [40.5672969004, -74.9122477682]
+    },
+    "Mercer County": 
+    {
+        "population": 377832,
+        "adjacent": ["Burlington County", "Hunterdon County", "Middlesex County", "Monmouth County", "Somerset County"],
+        "geo_coords": [40.2834374242, -74.7017524053]
+    },
+    "Middlesex County": 
+    {
+        "population": 859598,
+        "adjacent": ["Mercer County", "Monmouth County", "Somerset County", "Union County"],
+        "geo_coords": [40.4400836596, -74.4088356547]
+    },
+    "Monmouth County": 
+    {
+        "population": 639510,
+        "adjacent": ["Burlington County", "Mercer County", "Middlesex County", "Ocean County"],
+        "geo_coords": [40.2875173476, -74.1582023922]
+    },
+    "Morris County": 
+    {
+        "population": 512565,
+        "adjacent": ["Essex County", "Hunterdon County", "Passaic County", "Somerset County", "Sussex County", "Union County", "Warren County"],
+        "geo_coords": [40.8620042241, -74.5445106674]
+    },
+    "Ocean County": 
+    {
+        "population": 667723,
+        "adjacent": ["Atlantic County", "Burlington County", "Monmouth County"],
+        "geo_coords": [39.8659324961, -74.2499159319]
+    },
+    "Passaic County": 
+    {
+        "population": 505118,
+        "adjacent": ["Bergen County", "Essex County", "Morris County", "Sussex County"],
+        "geo_coords": [41.0343060095, -74.3007756821]
+    },
+    "Salem County": 
+    {
+        "population": 65235,
+        "adjacent": ["Cumberland County", "Gloucester County"],
+        "geo_coords": [39.5767751714, -75.3579856904]
+    },
+    "Somerset County": 
+    {
+        "population": 347963,
+        "adjacent": ["Hunterdon County", "Mercer County", "Middlesex County", "Morris County", "Union County"],
+        "geo_coords": [40.5635069447, -74.6163366246]
+    },
+    "Sussex County": 
+    {
+        "population": 146962,
+        "adjacent": ["Morris County", "Passaic County", "Warren County"],
+        "geo_coords": [41.1392969335, -74.6908006832]
+    },
+    "Union County": 
+    {
+        "population": 563825,
+        "adjacent": ["Essex County", "Hudson County", "Middlesex County", "Morris County", "Somerset County", "Richmond County, NY"],
+        "geo_coords": [40.6598994131, -74.3081414246]
+    },
+    "Warren County": 
+    {
+        "population": 111790,
+        "adjacent": ["Hunterdon County", "Morris County", "Sussex County"],
+        "geo_coords": [40.8571485251, -74.9973498515]
+    }
 }
