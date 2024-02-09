@@ -1,0 +1,23 @@
+{
+    "Atlantic County": ["Burlington County", "Camden County", "Cape May County", "Cumberland County", "Gloucester County", "Ocean County"],
+    "Bergen County": ["Essex County", "Hudson County", "Passaic County"],
+    "Burlington County": ["Atlantic County", "Camden County", "Mercer County", "Monmouth County", "Ocean County"],
+    "Camden County": ["Atlantic County", "Burlington County", "Gloucester County"],
+    "Cape May County": ["Atlantic County", "Cumberland County", "Gloucester County", "Salem County"],
+    "Cumberland County": ["Atlantic County", "Cape May County", "Gloucester County", "Salem County"],
+    "Essex County": ["Bergen County", "Hudson County", "Morris County", "Passaic County", "Union County"],
+    "Gloucester County": ["New Castle County, DE", "Atlantic County", "Camden County", "Cumberland County", "Salem County"],
+    "Hudson County": ["Bergen County", "Essex County", "Union County"],
+    "Hunterdon County": ["Mercer County", "Morris County", "Somerset County", "Warren County"],
+    "Mercer County": ["Burlington County", "Hunterdon County", "Middlesex County", "Monmouth County", "Somerset County"],
+    "Middlesex County": ["Mercer County", "Monmouth County", "Somerset County", "Union County"],
+    "Monmouth County": ["Burlington County", "Mercer County", "Middlesex County", "Ocean County"],
+    "Morris County": ["Essex County", "Hunterdon County", "Passaic County", "Somerset County", "Sussex County", "Union County", "Warren County"],
+    "Ocean County": ["Atlantic County", "Burlington County", "Monmouth County"],
+    "Passaic County": ["Bergen County", "Essex County", "Morris County", "Sussex County"],
+    "Salem County": ["Cumberland County", "Gloucester County"],
+    "Somerset County": ["Hunterdon County", "Mercer County", "Middlesex County", "Morris County", "Union County"],
+    "Sussex County": ["Morris County", "Passaic County", "Warren County"],
+    "Union County": ["Essex County", "Hudson County", "Middlesex County", "Morris County", "Somerset County", "Richmond County, NY"],
+    "Warren County": ["Hunterdon County", "Morris County", "Sussex County"]
+}
