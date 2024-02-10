@@ -3,7 +3,7 @@ import numpy as np
 from pulp import LpProblem, LpMinimize, LpVariable, lpSum
 
 # load NJ counties and adjacent counties into a dict
-njc_file = 'data/nj_counties.json'
+njc_file = 'nj_counties.json'
 with open(njc_file) as f:
     njc_dict = json.load(f)
 
@@ -56,9 +56,27 @@ d_assignment = np.array(DV_variable_d).reshape(model_n_counties, model_n_distric
 # Add constraint that each county is assigned to only one district
 # Not 100% sure this is correct
 for i in range(model_n_counties):
-    model += lpSum(d_assignment[i][j] for j in range(model_n_counties)) == 1
+    model += lpSum(d_assignment[i][j] for j in range(model_n_districts)) == 1
     
 # Add constraint that each district is within desired population range
 # Try min 90% and max 110%
-
+desired_pop =  model_total_pop/model_n_districts
+county_list = list(model_cities.keys())
+for j in range(model_n_districts):
+    district_population = lpSum(d_assignment[i, j] * model_cities[county_list[i]]['population'] for i in range(model_n_counties))
+    model += district_population >= 0.9 * desired_pop, f"District_{j+1}_min_population"
+    model += district_population <= 1.1 * desired_pop, f"District_{j+1}_max_population"
+    
 # Add continuity constraints
+# Assuming adjacency information is stored in njc_dict with each county's 'adjacent' list
+for i, county in enumerate(county_list):
+    for j in range(model_n_districts):
+        # For each county and district, ensure at least one adjacent county is also in the district
+        # This is a simplified continuity constraint
+        adjacent_counties = njc_dict[county]['adjacent']
+        adjacent_indices = [county_list.index(adjacent) for adjacent in adjacent_counties if adjacent in county_list]
+        
+        # Ensure the sum of the decision variables for the adjacent counties in the same district
+        # is at least as large as the decision variable for the county itself
+        # This means if a county is assigned to a district, at least one adjacent county must also be
+        model += lpSum([d_assignment[adjacent_index, j] for adjacent_index in adjacent_indices]) >= d_assignment[i, j], f"Continuity_{county}_D{j+1}"
