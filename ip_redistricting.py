@@ -120,9 +120,6 @@ for county, population in sorted_counties:
     if cumulative_sum >= top_county_size:
         break
 
-print(f"The sum of the lowest {max_counties_count} counties is greater than or equal to the size of the top one at {county} with a population of {cumulative_sum}.")
-
-
 NJ_Population = sum(list(NJ_county_population.values()))
 NJ_w_Population = sum(list(NJ_county_white_population .values()))
 NJ_legislative_districts = 12
@@ -142,8 +139,6 @@ print(f'{max_counties_count} max number of counties per district')
 min_len = 1
 max_len = 4 #can use max_counties_count 
 possible_districts = list(chain.from_iterable(combinations(counties, i) for i in range(min_len, max_len+1)))
-
-print(len(possible_districts))
 
 
 # Initialize a matrix with all zeros
