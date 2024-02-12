@@ -39,7 +39,10 @@ In our approach, we leveraged adjacency information to enhance compactness in di
   <img src="https://github.com/mamaOcoder/msds460_redistricting/blob/hantao/integer%20programming%20assignment%203/solution%20image.png" alt="Proposed Solution"/>
 
 
-<p align="center">![image](https://github.com/mamaOcoder/msds460_redistricting/assets/141500817/33e7af2f-eae9-4b54-bfb4-33efe22b8de4)</p>
+<img src="https://github.com/mamaOcoder/msds460_redistricting/assets/141500817/33e7af2f-eae9-4b54-bfb4-33efe22b8de" alt="Proposed Solution"/>
+
+
+</p>
 
 
 ## Maps and discussion
