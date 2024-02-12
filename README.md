@@ -39,6 +39,8 @@ In our approach, we leveraged adjacency information to enhance compactness in di
   <img src="https://github.com/mamaOcoder/msds460_redistricting/blob/hantao/integer%20programming%20assignment%203/solution%20image.png" alt="Proposed Solution"/>
 </p>
 
+![image](https://github.com/mamaOcoder/msds460_redistricting/assets/141500817/33e7af2f-eae9-4b54-bfb4-33efe22b8de4)
+
 
 ## Maps and discussion
 In our analysis of the Actual Congressional Districts for the period 2022-2031, a key distinction observed is the flexibility in county assignments across different districts. This strategic allocation has resulted in a more balanced population distribution across each district when compared to our proposed solution. Additionally, the racial distribution, particularly of white residents, within each district appears to be more evenly dispersed in the actual configurations than in our proposed model. This indicates a more thoughtful consideration of demographic factors in the actual redistricting process. Based on these observations, it is my conclusion that the current districting in New Jersey offers a more equitable and fair representation. This suggests that incorporating flexible county assignments and a nuanced approach to demographic distribution, including race, are critical for achieving fair and representative districting outcomes.
