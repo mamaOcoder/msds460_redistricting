@@ -1,0 +1,12 @@
+('Bergen',) 955732
+('Essex',) 863728
+('Hudson',) 724854
+('Middlesex',) 863162
+('Ocean',) 637229
+('Burlington', 'Camden') 985345
+('Gloucester', 'Salem') 367131
+('Mercer', 'Monmouth') 1030955
+('Passaic', 'Sussex') 668339
+('Somerset', 'Union') 920706
+('Atlantic', 'Cape May', 'Cumberland') 523949
+('Hunterdon', 'Morris', 'Warren') 747864
