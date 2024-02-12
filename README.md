@@ -33,13 +33,13 @@ There are several constraints we implemented:
 1. A county can only be assigned to 1 district.
 2. A county need to be adjacent to another county within the same district. With this constraint, we are promoting compactness of a district.
 
-### [Programming](https://github.com/mamaOcoder/msds460_redistricting/final_redistricting.py) 
+### [Programming](https://github.com/mamaOcoder/msds460_redistricting/blob/main/final_redistricting.py) 
 
-### [Solution](https://github.com/mamaOcoder/msds460_redistricting/solution.txt) 
+### [Solution](https://github.com/mamaOcoder/msds460_redistricting/blob/main/solution.txt) 
 In our approach, we leveraged adjacency information to enhance compactness in district formation. However, for a more comprehensive assessment of compactness, implementing robust metrics such as the Polsby-Popper score would significantly improve our methodology. Additionally, our current solution does not consider racial demographics, which could potentially lead to non-compliance with federal requirements and significantly impact redistricting outcomes. Incorporating considerations of racial composition is crucial to ensure equitable representation and adhere to legal standards, such as those outlined in the Voting Rights Act. Addressing these aspects will not only align our redistricting efforts with federal mandates but also contribute to a more fair and representative electoral process.
 
 <p align="center">
-  <img src="https://github.com/mamaOcoder/msds460_redistricting/images/solution_image.png" alt="Proposed Solution"/>
+  <img src="https://github.com/mamaOcoder/msds460_redistricting/blob/main/images/proposed%20solution.png" alt="Proposed Solution"/>
 </p>
 
 
@@ -48,14 +48,14 @@ In our analysis of the Actual Congressional Districts for the period 2022-2031, 
 
 ### Actual District
 <p align="center">
-  <img src="https://github.com/mamaOcoder/msds460_redistricting/images/actual%20district.png" alt="First Image Description" style="width: 45%; margin-right: 5%; display: inline-block; vertical-align: top;" />
-  <img src="https://github.com/mamaOcoder/msds460_redistricting/images/actual%20solution%20race%20distribution.png" alt="Second Image Description" style="width: 45%; margin-left: 5%; display: inline-block; vertical-align: top;" />
+  <img src="https://github.com/mamaOcoder/msds460_redistricting/blob/main/images/actual%20district.png" alt="First Image Description" style="width: 45%; margin-right: 5%; display: inline-block; vertical-align: top;" />
+  <img src="https://github.com/mamaOcoder/msds460_redistricting/blob/main/images/actual%20solution%20race%20distribution.png" alt="Second Image Description" style="width: 45%; margin-left: 5%; display: inline-block; vertical-align: top;" />
 </p>
 
 ### Proposed District 
 <p align="center">
-  <img src="https://github.com/mamaOcoder/msds460_redistricting/images/proposed%20solution.png" alt="First Image Description" style="width: 45%; margin-right: 5%; display: inline-block; vertical-align: top;" />
-  <img src="https://github.com/mamaOcoder/msds460_redistricting/images/propsed%20solution%20race%20distribution.png" alt="Second Image Description" style="width: 45%; margin-left: 5%; display: inline-block; vertical-align: top;" />
+  <img src="https://github.com/mamaOcoder/msds460_redistricting/blob/main/images/proposed%20solution.png" alt="First Image Description" style="width: 45%; margin-right: 5%; display: inline-block; vertical-align: top;" />
+  <img src="https://github.com/mamaOcoder/msds460_redistricting/blob/main/images/propsed%20solution%20race%20distribution.png" alt="Second Image Description" style="width: 45%; margin-left: 5%; display: inline-block; vertical-align: top;" />
 </p>
 
 
