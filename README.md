@@ -39,19 +39,19 @@ In our approach, we leveraged adjacency information to enhance compactness in di
   <img src="https://github.com/mamaOcoder/msds460_redistricting/blob/hantao/integer%20programming%20assignment%203/solution%20image.png" alt="Proposed Solution"/>
 
 
-Chosen districts and their populations:
-('Bergen',) 955732
-('Essex',) 863728
-('Hudson',) 724854
-('Middlesex',) 863162
-('Ocean',) 637229
-('Burlington', 'Camden') 985345
-('Gloucester', 'Salem') 367131
-('Mercer', 'Monmouth') 1030955
-('Passaic', 'Sussex') 668339
-('Somerset', 'Union') 920706
-('Atlantic', 'Cape May', 'Cumberland') 523949
-('Hunterdon', 'Morris', 'Warren') 747864
+Chosen districts and their populations:<br>
+('Bergen',) 955732<br>
+('Essex',) 863728<br>
+('Hudson',) 724854<br>
+('Middlesex',) 863162<br>
+('Ocean',) 637229<br>
+('Burlington', 'Camden') 985345<br>
+('Gloucester', 'Salem') 367131<br>
+('Mercer', 'Monmouth') 1030955<br>
+('Passaic', 'Sussex') 668339<br>
+('Somerset', 'Union') 920706<br>
+('Atlantic', 'Cape May', 'Cumberland') 523949<br>
+('Hunterdon', 'Morris', 'Warren') 747864<br>
 
 </p>
 
