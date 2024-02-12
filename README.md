@@ -12,6 +12,9 @@ This week we were tasked with developing an algorithmic redistricting map for Ne
 
 - **New Jersey Counties (nj_counties.json)**: 
     - **Description**: Contains a list of all New Jersey counties, their populations, central coordinates (longitude/latitude), and adjacent counties.
+
+- **GeoJSON (nj-county-boundaries.geojson)**:
+    - **Description**: GeoJSON file for New Jersey counties is used to print map of district results.
        
  - **Sources**:
     - [Population Data](https://worldpopulationreview.com/states/new-jersey/counties)
